@@ -15,6 +15,7 @@ We’re going to see how far we can get in implementing a supermarket checkout t
 Our checkout accepts items in any order, so that if we scan a B, an A, and another B, we’ll recognize the two B’s and price them at 45 (for a total price so far of 95).
 
 Simple Unit Test Example:
+```java
   assert_equal(  0, price(""))
   assert_equal( 50, price("A"))
   assert_equal( 80, price("AB"))
@@ -22,3 +23,4 @@ Simple Unit Test Example:
   assert_equal(100, price("AA"))
   assert_equal(130, price("AAA"))
   assert_equal(175, price("AAABB"))
+```
