@@ -24,3 +24,8 @@ Simple Unit Test Example:
   assert_equal(130, price("AAA"))
   assert_equal(175, price("AAABB"))
 ```
+
+```java
+int batchCount = quantity / batchSize;
+int remainder = quantity % batchSize;helper
+```
