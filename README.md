@@ -28,4 +28,5 @@ Simple Unit Test Example:
 ```java
 int batchCount = quantity / batchSize;
 int remainder = quantity % batchSize;helper
+Final Price per item = batchCount * specialPrice + remainder * unitPrice
 ```
